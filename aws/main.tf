@@ -3,7 +3,7 @@
 variable "aws_region" {
   description = "The AWS region to deploy the CTF lab"
   type        = string
-  default     = "us-east-1"  # Default region if not specified
+  default     = "af-south-1"  # Default region if not specified
 }
 
 # Configure the AWS Provider with the variable region
